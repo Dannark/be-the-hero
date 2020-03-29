@@ -8,7 +8,6 @@ import api from '../../services/api'
 import logoImg from '../../assets/logo.png'
 
 import s from './styles'
-import { set } from 'react-native-reanimated'
 
 export default function Incidents(){
     const [incidents, setIncidents] = useState([])
